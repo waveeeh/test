@@ -1,0 +1,155 @@
+:root {
+    --blue-color: #0A66C2;
+    --violet-color: #623FDE;
+    --darkblue-color: #004182;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+body {
+  margin-left: 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+
+.logo {
+  color: #623FDE;
+  font-size: 60px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  line-height: 20px; /* Adjust as needed */
+  flex-shrink: 0;
+}
+
+.logo img{
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.btn{
+  width: 449px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #623FDE;  
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  margin: 15px;
+}
+
+h1 {
+  width: 649px;
+  height: 168px;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0%;
+  margin-top: -15px;
+}
+
+.btn.violet{
+  background: var(--violet-color);
+}
+
+.btn-google {
+  width: 383px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 2px solid #000; /* Border color */
+  border-radius: 15px; /* Border radius */
+  margin: 50px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  margin-top: 10px;
+}
+
+.btn-google img {
+  width: 34px;
+  height: 34px;
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
+.singin {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: -25px;
+}
+
+.singin2{
+  color: #0A66C2;
+  text-decoration: none;
+}
+
+.right {
+  float: right;
+  margin-right: 30px; /* Add margin if needed */
+  width: 836px;
+  height: 699px;
+}
+
+.form-group {
+  margin-bottom: 30px; /* Add space between form groups */
+  margin-top: -20px;
+}
+
+/* Style labels for better visibility */
+  .form-group label {
+    width: 121px;
+    height: 26px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline; /* Ensure the label is on a new line */
+    margin-bottom: 15px;
+  }
+
+/* Style input fields */
+.form-group input {
+  width: 483px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+
+
+
+
